@@ -1,0 +1,37 @@
+nav{
+    display: grid;
+    grid-template-areas: 
+    '. title cart';
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    color: white;
+    background-color: rgb(4, 4, 83);
+
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.title{
+    grid-area: title;
+    text-align: center;
+}
+
+.grid-cart{
+
+    grid-area: cart;
+    text-align: center;
+}
+
+.grid-cart:hover{
+    cursor: pointer;
+    background-color: rgb(1, 1, 20);
+}
