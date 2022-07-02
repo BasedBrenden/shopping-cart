@@ -1,0 +1,63 @@
+.cartOrder{
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    padding: 10px 0px 10px;
+}
+
+.cartOrderContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cartOrderImg{
+    width: 75px;
+    height: 75px;
+}
+
+.cartRemoveBtn{
+    background-color: rgb(173, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+.cartRemoveBtn:hover{
+    cursor:pointer;
+    background-color: red;
+}
+
+.cartOrderBottomBtns{
+    margin: 1rem;
+    padding-top: 2rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cartCheckoutBtn{
+    background-color: green;
+    color: white;
+    border:none;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.cartCheckoutBtn:hover{
+    cursor: pointer;
+    background-color: rgb(13, 168, 13);
+}
+
+.cartCancelBtn{
+    background-color: rgb(173, 19, 19);
+    color: white;
+    border:none;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.cartCancelBtn:hover{
+    cursor:pointer;
+    background-color: red;
+}
